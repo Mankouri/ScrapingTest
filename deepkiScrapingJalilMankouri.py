@@ -59,7 +59,6 @@ while numPage <24:
         print( str(k)+ ' < ' + str(stop))
         # Extraction des données d'un site commercial odd
         nom_site = []
-        print('JALON i: ' + str(i))
         nom_site = site_commercial_containers_odd[i].a.text        
         ville = site_commercial_containers_odd[i].find('td', class_ = 'views-field views-field-field-city').text.replace(" ","")
         etat = site_commercial_containers_odd[i].find('td', class_ = 'views-field views-field-field-status').text.replace(" ","")
@@ -94,8 +93,6 @@ while numPage <24:
         lignePair.write(4,nb_boutique)
         lignePair.write(5,contact)
         k = k +1
-        print('valeur de i: ' + str(i))
-        print('valeur de k: ' + str(k) + '\n\n')
     
     numPage = numPage + 1
 # création du fichier excel

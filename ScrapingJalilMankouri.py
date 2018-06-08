@@ -2,7 +2,7 @@
 """
 Created on Sun Mar  4 14:16:17 2018
 
-@author: jalil
+@author: jalil Scraping Deepki
 """
 # http://www.portailsig.org/content/python-lire-et-ecrire-des-fichiers-microsoft-excel-application-quantum-gis
 # https://www.dataquest.io/blog/web-scraping-beautifulsoup/
